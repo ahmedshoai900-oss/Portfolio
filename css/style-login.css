@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+    border: 0;
+}
+body{
+    background-image: url(../images/work-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-content: center;
+
+}
+.login{
+    display: flex;
+    justify-content:center ;
+    align-content: center;
+     
+}
+form{
+    min-width: 25% ;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-content: center;
+    gap: 10px;
+}
+button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    background-color: rgb(16, 201, 115);
+    color: #fff;
+    border-radius: 10px;
+    font-size: large;
+}
+button a{
+        text-decoration: none;
+}
+button a:hover{
+    color: aqua;
+}
+form p a:hover{
+    color: rgba(134, 181, 14, 0.816);
+}
+input{
+    padding: 10px 20px;
+    color:black ;
+    border-radius: 10px;
+    font-size: large;
+}
+h1{
+    text-align: center;
+}
+form p{
+    text-align: center;
+}
+form p a{
+    text-decoration: none;
+}
+@media (min-width: 300px) and (max-width: 768px){
+    form{
+        min-width: 300px;
+    }
+    input, button, textarea{
+    min-width: 200px;
+    }
+}
+ 
